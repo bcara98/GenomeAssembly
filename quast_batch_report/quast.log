@@ -1,0 +1,306 @@
+/home/bcara3/bin/envs/env/bin/quast.py -t 25 -o Assembly/quast_batch_report Assembly/Assembly_CGT2006_/Assembly_CGT2006__asm/final.contigs.fa Assembly/Assembly_CGT2010_/Assembly_CGT2010__asm/final.contigs.fa Assembly/Assembly_CGT2044_/Assembly_CGT2044__asm/final.contigs.fa Assembly/Assembly_CGT2049_/Assembly_CGT2049__asm/final.contigs.fa Assembly/Assembly_CGT2060_/Assembly_CGT2060__asm/final.contigs.fa Assembly/Assembly_CGT2069_/Assembly_CGT2069__asm/final.contigs.fa Assembly/Assembly_CGT2076_/Assembly_CGT2076__asm/final.contigs.fa Assembly/Assembly_CGT2093_/Assembly_CGT2093__asm/final.contigs.fa Assembly/Assembly_CGT2114_/Assembly_CGT2114__asm/final.contigs.fa Assembly/Assembly_CGT2116_/Assembly_CGT2116__asm/final.contigs.fa Assembly/Assembly_CGT2119_/Assembly_CGT2119__asm/final.contigs.fa Assembly/Assembly_CGT2123_/Assembly_CGT2123__asm/final.contigs.fa Assembly/Assembly_CGT2135_/Assembly_CGT2135__asm/final.contigs.fa Assembly/Assembly_CGT2196_/Assembly_CGT2196__asm/final.contigs.fa Assembly/Assembly_CGT2214_/Assembly_CGT2214__asm/final.contigs.fa Assembly/Assembly_CGT2269_/Assembly_CGT2269__asm/final.contigs.fa Assembly/Assembly_CGT2278_/Assembly_CGT2278__asm/final.contigs.fa Assembly/Assembly_CGT2287_/Assembly_CGT2287__asm/final.contigs.fa Assembly/Assembly_CGT2304_/Assembly_CGT2304__asm/final.contigs.fa Assembly/Assembly_CGT2318_/Assembly_CGT2318__asm/final.contigs.fa Assembly/Assembly_CGT2326_/Assembly_CGT2326__asm/final.contigs.fa Assembly/Assembly_CGT2332_/Assembly_CGT2332__asm/final.contigs.fa Assembly/Assembly_CGT2344_/Assembly_CGT2344__asm/final.contigs.fa Assembly/Assembly_CGT2364_/Assembly_CGT2364__asm/final.contigs.fa Assembly/Assembly_CGT2374_/Assembly_CGT2374__asm/final.contigs.fa Assembly/Assembly_CGT2386_/Assembly_CGT2386__asm/final.contigs.fa Assembly/Assembly_CGT2393_/Assembly_CGT2393__asm/final.contigs.fa Assembly/Assembly_CGT2400_/Assembly_CGT2400__asm/final.contigs.fa Assembly/Assembly_CGT2424_/Assembly_CGT2424__asm/final.contigs.fa Assembly/Assembly_CGT2427_/Assembly_CGT2427__asm/final.contigs.fa Assembly/Assembly_CGT2428_/Assembly_CGT2428__asm/final.contigs.fa Assembly/Assembly_CGT2443_/Assembly_CGT2443__asm/final.contigs.fa Assembly/Assembly_CGT2471_/Assembly_CGT2471__asm/final.contigs.fa Assembly/Assembly_CGT2472_/Assembly_CGT2472__asm/final.contigs.fa Assembly/Assembly_CGT2514_/Assembly_CGT2514__asm/final.contigs.fa Assembly/Assembly_CGT2517_/Assembly_CGT2517__asm/final.contigs.fa Assembly/Assembly_CGT2540_/Assembly_CGT2540__asm/final.contigs.fa Assembly/Assembly_CGT2552_/Assembly_CGT2552__asm/final.contigs.fa Assembly/Assembly_CGT2567_/Assembly_CGT2567__asm/final.contigs.fa Assembly/Assembly_CGT2599_/Assembly_CGT2599__asm/final.contigs.fa Assembly/Assembly_CGT2628_/Assembly_CGT2628__asm/final.contigs.fa Assembly/Assembly_CGT2659_/Assembly_CGT2659__asm/final.contigs.fa Assembly/Assembly_CGT2683_/Assembly_CGT2683__asm/final.contigs.fa Assembly/Assembly_CGT2742_/Assembly_CGT2742__asm/final.contigs.fa Assembly/Assembly_CGT2785_/Assembly_CGT2785__asm/final.contigs.fa Assembly/Assembly_CGT2805_/Assembly_CGT2805__asm/final.contigs.fa Assembly/Assembly_CGT2843_/Assembly_CGT2843__asm/final.contigs.fa Assembly/Assembly_CGT2858_/Assembly_CGT2858__asm/final.contigs.fa Assembly/Assembly_CGT2878_/Assembly_CGT2878__asm/final.contigs.fa Assembly/Assembly_CGT2908_/Assembly_CGT2908__asm/final.contigs.fa
+
+Version: 5.2.0
+
+System information:
+  OS: Linux-4.18.0-425.10.1.el8_7.x86_64-x86_64-with-glibc2.10 (linux_64)
+  Python version: 3.8.16
+  CPUs number: 10
+
+Started: 2023-02-20 20:46:04
+
+Logging to /home/bcara3/test/Assembly/quast_batch_report/quast.log
+
+CWD: /home/bcara3/test
+Main parameters: 
+  MODE: default, threads: 25, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  1  Assembly/Assembly_CGT2006_/Assembly_CGT2006__asm/final.contigs.fa ==> Assembly_CGT2006__asm_final.contigs
+  2  Assembly/Assembly_CGT2010_/Assembly_CGT2010__asm/final.contigs.fa ==> Assembly_CGT2010__asm_final.contigs
+  3  Assembly/Assembly_CGT2044_/Assembly_CGT2044__asm/final.contigs.fa ==> Assembly_CGT2044__asm_final.contigs
+  4  Assembly/Assembly_CGT2049_/Assembly_CGT2049__asm/final.contigs.fa ==> Assembly_CGT2049__asm_final.contigs
+  5  Assembly/Assembly_CGT2060_/Assembly_CGT2060__asm/final.contigs.fa ==> Assembly_CGT2060__asm_final.contigs
+  6  Assembly/Assembly_CGT2069_/Assembly_CGT2069__asm/final.contigs.fa ==> Assembly_CGT2069__asm_final.contigs
+  7  Assembly/Assembly_CGT2076_/Assembly_CGT2076__asm/final.contigs.fa ==> Assembly_CGT2076__asm_final.contigs
+  8  Assembly/Assembly_CGT2093_/Assembly_CGT2093__asm/final.contigs.fa ==> Assembly_CGT2093__asm_final.contigs
+  9  Assembly/Assembly_CGT2114_/Assembly_CGT2114__asm/final.contigs.fa ==> Assembly_CGT2114__asm_final.contigs
+  10 Assembly/Assembly_CGT2116_/Assembly_CGT2116__asm/final.contigs.fa ==> Assembly_CGT2116__asm_final.contigs
+  11 Assembly/Assembly_CGT2119_/Assembly_CGT2119__asm/final.contigs.fa ==> Assembly_CGT2119__asm_final.contigs
+  12 Assembly/Assembly_CGT2123_/Assembly_CGT2123__asm/final.contigs.fa ==> Assembly_CGT2123__asm_final.contigs
+  13 Assembly/Assembly_CGT2135_/Assembly_CGT2135__asm/final.contigs.fa ==> Assembly_CGT2135__asm_final.contigs
+  14 Assembly/Assembly_CGT2196_/Assembly_CGT2196__asm/final.contigs.fa ==> Assembly_CGT2196__asm_final.contigs
+  15 Assembly/Assembly_CGT2214_/Assembly_CGT2214__asm/final.contigs.fa ==> Assembly_CGT2214__asm_final.contigs
+  16 Assembly/Assembly_CGT2269_/Assembly_CGT2269__asm/final.contigs.fa ==> Assembly_CGT2269__asm_final.contigs
+  17 Assembly/Assembly_CGT2278_/Assembly_CGT2278__asm/final.contigs.fa ==> Assembly_CGT2278__asm_final.contigs
+  18 Assembly/Assembly_CGT2287_/Assembly_CGT2287__asm/final.contigs.fa ==> Assembly_CGT2287__asm_final.contigs
+  19 Assembly/Assembly_CGT2304_/Assembly_CGT2304__asm/final.contigs.fa ==> Assembly_CGT2304__asm_final.contigs
+  20 Assembly/Assembly_CGT2318_/Assembly_CGT2318__asm/final.contigs.fa ==> Assembly_CGT2318__asm_final.contigs
+  21 Assembly/Assembly_CGT2326_/Assembly_CGT2326__asm/final.contigs.fa ==> Assembly_CGT2326__asm_final.contigs
+  22 Assembly/Assembly_CGT2332_/Assembly_CGT2332__asm/final.contigs.fa ==> Assembly_CGT2332__asm_final.contigs
+  23 Assembly/Assembly_CGT2344_/Assembly_CGT2344__asm/final.contigs.fa ==> Assembly_CGT2344__asm_final.contigs
+  24 Assembly/Assembly_CGT2364_/Assembly_CGT2364__asm/final.contigs.fa ==> Assembly_CGT2364__asm_final.contigs
+  25 Assembly/Assembly_CGT2374_/Assembly_CGT2374__asm/final.contigs.fa ==> Assembly_CGT2374__asm_final.contigs
+  26 Assembly/Assembly_CGT2386_/Assembly_CGT2386__asm/final.contigs.fa ==> Assembly_CGT2386__asm_final.contigs
+  27 Assembly/Assembly_CGT2393_/Assembly_CGT2393__asm/final.contigs.fa ==> Assembly_CGT2393__asm_final.contigs
+  28 Assembly/Assembly_CGT2400_/Assembly_CGT2400__asm/final.contigs.fa ==> Assembly_CGT2400__asm_final.contigs
+  29 Assembly/Assembly_CGT2424_/Assembly_CGT2424__asm/final.contigs.fa ==> Assembly_CGT2424__asm_final.contigs
+  30 Assembly/Assembly_CGT2427_/Assembly_CGT2427__asm/final.contigs.fa ==> Assembly_CGT2427__asm_final.contigs
+  31 Assembly/Assembly_CGT2428_/Assembly_CGT2428__asm/final.contigs.fa ==> Assembly_CGT2428__asm_final.contigs
+  32 Assembly/Assembly_CGT2443_/Assembly_CGT2443__asm/final.contigs.fa ==> Assembly_CGT2443__asm_final.contigs
+  33 Assembly/Assembly_CGT2471_/Assembly_CGT2471__asm/final.contigs.fa ==> Assembly_CGT2471__asm_final.contigs
+  34 Assembly/Assembly_CGT2472_/Assembly_CGT2472__asm/final.contigs.fa ==> Assembly_CGT2472__asm_final.contigs
+  35 Assembly/Assembly_CGT2514_/Assembly_CGT2514__asm/final.contigs.fa ==> Assembly_CGT2514__asm_final.contigs
+  36 Assembly/Assembly_CGT2517_/Assembly_CGT2517__asm/final.contigs.fa ==> Assembly_CGT2517__asm_final.contigs
+  37 Assembly/Assembly_CGT2540_/Assembly_CGT2540__asm/final.contigs.fa ==> Assembly_CGT2540__asm_final.contigs
+  38 Assembly/Assembly_CGT2552_/Assembly_CGT2552__asm/final.contigs.fa ==> Assembly_CGT2552__asm_final.contigs
+  39 Assembly/Assembly_CGT2567_/Assembly_CGT2567__asm/final.contigs.fa ==> Assembly_CGT2567__asm_final.contigs
+  40 Assembly/Assembly_CGT2599_/Assembly_CGT2599__asm/final.contigs.fa ==> Assembly_CGT2599__asm_final.contigs
+  41 Assembly/Assembly_CGT2628_/Assembly_CGT2628__asm/final.contigs.fa ==> Assembly_CGT2628__asm_final.contigs
+  42 Assembly/Assembly_CGT2659_/Assembly_CGT2659__asm/final.contigs.fa ==> Assembly_CGT2659__asm_final.contigs
+  43 Assembly/Assembly_CGT2683_/Assembly_CGT2683__asm/final.contigs.fa ==> Assembly_CGT2683__asm_final.contigs
+  44 Assembly/Assembly_CGT2742_/Assembly_CGT2742__asm/final.contigs.fa ==> Assembly_CGT2742__asm_final.contigs
+  45 Assembly/Assembly_CGT2785_/Assembly_CGT2785__asm/final.contigs.fa ==> Assembly_CGT2785__asm_final.contigs
+  46 Assembly/Assembly_CGT2805_/Assembly_CGT2805__asm/final.contigs.fa ==> Assembly_CGT2805__asm_final.contigs
+  47 Assembly/Assembly_CGT2843_/Assembly_CGT2843__asm/final.contigs.fa ==> Assembly_CGT2843__asm_final.contigs
+  48 Assembly/Assembly_CGT2858_/Assembly_CGT2858__asm/final.contigs.fa ==> Assembly_CGT2858__asm_final.contigs
+  49 Assembly/Assembly_CGT2878_/Assembly_CGT2878__asm/final.contigs.fa ==> Assembly_CGT2878__asm_final.contigs
+  50 Assembly/Assembly_CGT2908_/Assembly_CGT2908__asm/final.contigs.fa ==> Assembly_CGT2908__asm_final.contigs
+
+2023-02-20 20:46:04
+Running Basic statistics processor...
+  Contig files: 
+    1  Assembly_CGT2006__asm_final.contigs
+    2  Assembly_CGT2010__asm_final.contigs
+    3  Assembly_CGT2044__asm_final.contigs
+    4  Assembly_CGT2049__asm_final.contigs
+    5  Assembly_CGT2060__asm_final.contigs
+    6  Assembly_CGT2069__asm_final.contigs
+    7  Assembly_CGT2076__asm_final.contigs
+    8  Assembly_CGT2093__asm_final.contigs
+    9  Assembly_CGT2114__asm_final.contigs
+    10 Assembly_CGT2116__asm_final.contigs
+    11 Assembly_CGT2119__asm_final.contigs
+    12 Assembly_CGT2123__asm_final.contigs
+    13 Assembly_CGT2135__asm_final.contigs
+    14 Assembly_CGT2196__asm_final.contigs
+    15 Assembly_CGT2214__asm_final.contigs
+    16 Assembly_CGT2269__asm_final.contigs
+    17 Assembly_CGT2278__asm_final.contigs
+    18 Assembly_CGT2287__asm_final.contigs
+    19 Assembly_CGT2304__asm_final.contigs
+    20 Assembly_CGT2318__asm_final.contigs
+    21 Assembly_CGT2326__asm_final.contigs
+    22 Assembly_CGT2332__asm_final.contigs
+    23 Assembly_CGT2344__asm_final.contigs
+    24 Assembly_CGT2364__asm_final.contigs
+    25 Assembly_CGT2374__asm_final.contigs
+    26 Assembly_CGT2386__asm_final.contigs
+    27 Assembly_CGT2393__asm_final.contigs
+    28 Assembly_CGT2400__asm_final.contigs
+    29 Assembly_CGT2424__asm_final.contigs
+    30 Assembly_CGT2427__asm_final.contigs
+    31 Assembly_CGT2428__asm_final.contigs
+    32 Assembly_CGT2443__asm_final.contigs
+    33 Assembly_CGT2471__asm_final.contigs
+    34 Assembly_CGT2472__asm_final.contigs
+    35 Assembly_CGT2514__asm_final.contigs
+    36 Assembly_CGT2517__asm_final.contigs
+    37 Assembly_CGT2540__asm_final.contigs
+    38 Assembly_CGT2552__asm_final.contigs
+    39 Assembly_CGT2567__asm_final.contigs
+    40 Assembly_CGT2599__asm_final.contigs
+    41 Assembly_CGT2628__asm_final.contigs
+    42 Assembly_CGT2659__asm_final.contigs
+    43 Assembly_CGT2683__asm_final.contigs
+    44 Assembly_CGT2742__asm_final.contigs
+    45 Assembly_CGT2785__asm_final.contigs
+    46 Assembly_CGT2805__asm_final.contigs
+    47 Assembly_CGT2843__asm_final.contigs
+    48 Assembly_CGT2858__asm_final.contigs
+    49 Assembly_CGT2878__asm_final.contigs
+    50 Assembly_CGT2908__asm_final.contigs
+  Calculating N50 and L50...
+    1  Assembly_CGT2006__asm_final.contigs, N50 = 278471, L50 = 2, auN = 245426.5, Total length = 1082173, GC % = 51.45, # N's per 100 kbp =  0.00
+    2  Assembly_CGT2010__asm_final.contigs, N50 = 3637, L50 = 133, auN = 4273.5, Total length = 1524906, GC % = 51.46, # N's per 100 kbp =  0.00
+    3  Assembly_CGT2044__asm_final.contigs, N50 = 662288, L50 = 1, auN = 550440.2, Total length = 896634, GC % = 50.91, # N's per 100 kbp =  0.00
+    4  Assembly_CGT2049__asm_final.contigs, N50 = 89683, L50 = 6, auN = 104271.5, Total length = 1489672, GC % = 53.17, # N's per 100 kbp =  0.00
+    5  Assembly_CGT2060__asm_final.contigs, N50 = 278471, L50 = 2, auN = 245736.6, Total length = 1082515, GC % = 51.45, # N's per 100 kbp =  0.00
+    6  Assembly_CGT2069__asm_final.contigs, N50 = 367217, L50 = 3, auN = 318048.8, Total length = 1902168, GC % = 51.52, # N's per 100 kbp =  0.00
+    7  Assembly_CGT2076__asm_final.contigs, N50 = 5457, L50 = 211, auN = 6909.4, Total length = 3785362, GC % = 52.10, # N's per 100 kbp =  0.00
+    8  Assembly_CGT2093__asm_final.contigs, N50 = 225243, L50 = 6, auN = 242606.5, Total length = 3459236, GC % = 52.12, # N's per 100 kbp =  0.00
+    9  Assembly_CGT2114__asm_final.contigs, N50 = 61882, L50 = 16, auN = 78356.3, Total length = 3053058, GC % = 52.96, # N's per 100 kbp =  0.00
+    10 Assembly_CGT2116__asm_final.contigs, N50 = 6721, L50 = 215, auN = 8118.1, Total length = 4691930, GC % = 52.21, # N's per 100 kbp =  0.00
+    11 Assembly_CGT2119__asm_final.contigs, N50 = 193676, L50 = 8, auN = 203484.1, Total length = 4336720, GC % = 52.23, # N's per 100 kbp =  0.00
+    12 Assembly_CGT2123__asm_final.contigs, N50 = 34237, L50 = 38, auN = 44834.8, Total length = 4480877, GC % = 52.43, # N's per 100 kbp =  0.00
+    13 Assembly_CGT2135__asm_final.contigs, N50 = 10637, L50 = 143, auN = 12130.3, Total length = 4719721, GC % = 52.22, # N's per 100 kbp =  0.00
+    14 Assembly_CGT2196__asm_final.contigs, N50 = 5665, L50 = 235, auN = 6862.6, Total length = 4444081, GC % = 52.54, # N's per 100 kbp =  0.00
+    15 Assembly_CGT2214__asm_final.contigs, N50 = 152365, L50 = 13, auN = 135824.0, Total length = 4688066, GC % = 52.15, # N's per 100 kbp =  0.00
+    16 Assembly_CGT2269__asm_final.contigs, N50 = 187961, L50 = 9, auN = 199346.7, Total length = 4713913, GC % = 52.22, # N's per 100 kbp =  0.00
+    17 Assembly_CGT2278__asm_final.contigs, N50 = 171108, L50 = 9, auN = 240449.8, Total length = 4687661, GC % = 52.15, # N's per 100 kbp =  0.00
+    18 Assembly_CGT2287__asm_final.contigs, N50 = 31882, L50 = 45, auN = 40356.3, Total length = 4712984, GC % = 52.22, # N's per 100 kbp =  0.00
+    19 Assembly_CGT2304__asm_final.contigs, N50 = 167341, L50 = 10, auN = 174924.4, Total length = 4713439, GC % = 52.22, # N's per 100 kbp =  0.00
+    20 Assembly_CGT2318__asm_final.contigs, N50 = 187841, L50 = 9, auN = 197233.0, Total length = 4711963, GC % = 52.22, # N's per 100 kbp =  0.00
+    21 Assembly_CGT2326__asm_final.contigs, N50 = 167394, L50 = 9, auN = 203482.4, Total length = 4707317, GC % = 52.22, # N's per 100 kbp =  0.00
+    22 Assembly_CGT2332__asm_final.contigs, N50 = 80581, L50 = 19, auN = 97814.4, Total length = 4671319, GC % = 52.20, # N's per 100 kbp =  0.00
+    23 Assembly_CGT2344__asm_final.contigs, N50 = 167283, L50 = 10, auN = 177885.3, Total length = 4712549, GC % = 52.22, # N's per 100 kbp =  0.00
+    24 Assembly_CGT2364__asm_final.contigs, N50 = 137431, L50 = 13, auN = 133214.7, Total length = 4678549, GC % = 52.15, # N's per 100 kbp =  0.00
+    25 Assembly_CGT2374__asm_final.contigs, N50 = 187889, L50 = 9, auN = 186629.2, Total length = 4710235, GC % = 52.22, # N's per 100 kbp =  0.00
+    26 Assembly_CGT2386__asm_final.contigs, N50 = 171119, L50 = 10, auN = 178981.2, Total length = 4685699, GC % = 52.15, # N's per 100 kbp =  0.00
+    27 Assembly_CGT2393__asm_final.contigs, N50 = 182439, L50 = 8, auN = 250505.4, Total length = 4668179, GC % = 52.20, # N's per 100 kbp =  0.00
+    28 Assembly_CGT2400__asm_final.contigs, N50 = 44363, L50 = 30, auN = 56743.1, Total length = 4483158, GC % = 52.45, # N's per 100 kbp =  0.00
+    29 Assembly_CGT2424__asm_final.contigs, N50 = 188021, L50 = 9, auN = 196921.5, Total length = 4713183, GC % = 52.22, # N's per 100 kbp =  0.00
+    30 Assembly_CGT2427__asm_final.contigs, N50 = 187720, L50 = 9, auN = 202889.9, Total length = 4709637, GC % = 52.22, # N's per 100 kbp =  0.00
+    31 Assembly_CGT2428__asm_final.contigs, N50 = 187997, L50 = 9, auN = 197543.0, Total length = 4713990, GC % = 52.22, # N's per 100 kbp =  0.00
+    32 Assembly_CGT2443__asm_final.contigs, N50 = 187814, L50 = 10, auN = 168681.2, Total length = 4707825, GC % = 52.21, # N's per 100 kbp =  0.00
+    33 Assembly_CGT2471__asm_final.contigs, N50 = 4141, L50 = 362, auN = 4823.8, Total length = 4653285, GC % = 52.03, # N's per 100 kbp =  0.00
+    34 Assembly_CGT2472__asm_final.contigs, N50 = 161753, L50 = 11, auN = 165221.7, Total length = 4685815, GC % = 52.15, # N's per 100 kbp =  0.00
+    35 Assembly_CGT2514__asm_final.contigs, N50 = 187986, L50 = 9, auN = 199355.5, Total length = 4712407, GC % = 52.22, # N's per 100 kbp =  0.00
+    36 Assembly_CGT2517__asm_final.contigs, N50 = 21135, L50 = 68, auN = 25914.6, Total length = 4712659, GC % = 52.22, # N's per 100 kbp =  0.00
+    37 Assembly_CGT2540__asm_final.contigs, N50 = 41465, L50 = 31, auN = 56231.6, Total length = 4488312, GC % = 52.44, # N's per 100 kbp =  0.00
+    38 Assembly_CGT2552__asm_final.contigs, N50 = 47714, L50 = 33, auN = 52815.5, Total length = 4707461, GC % = 52.21, # N's per 100 kbp =  0.00
+    39 Assembly_CGT2567__asm_final.contigs, N50 = 44372, L50 = 30, auN = 56614.5, Total length = 4496062, GC % = 52.42, # N's per 100 kbp =  0.00
+    40 Assembly_CGT2599__asm_final.contigs, N50 = 20883, L50 = 70, auN = 24476.5, Total length = 4719103, GC % = 52.21, # N's per 100 kbp =  0.00
+    41 Assembly_CGT2628__asm_final.contigs, N50 = 31764, L50 = 49, auN = 36574.2, Total length = 4713909, GC % = 52.21, # N's per 100 kbp =  0.00
+    42 Assembly_CGT2659__asm_final.contigs, N50 = 187653, L50 = 9, auN = 188444.1, Total length = 4712103, GC % = 52.22, # N's per 100 kbp =  0.00
+    43 Assembly_CGT2683__asm_final.contigs, N50 = 187773, L50 = 9, auN = 189952.7, Total length = 4713105, GC % = 52.22, # N's per 100 kbp =  0.00
+    44 Assembly_CGT2742__asm_final.contigs, N50 = 187861, L50 = 9, auN = 189345.5, Total length = 4713103, GC % = 52.22, # N's per 100 kbp =  0.00
+    45 Assembly_CGT2785__asm_final.contigs, N50 = 187822, L50 = 9, auN = 200015.0, Total length = 4713436, GC % = 52.22, # N's per 100 kbp =  0.00
+    46 Assembly_CGT2805__asm_final.contigs, N50 = 188051, L50 = 9, auN = 192793.2, Total length = 4713412, GC % = 52.22, # N's per 100 kbp =  0.00
+    47 Assembly_CGT2843__asm_final.contigs, N50 = 192895, L50 = 8, auN = 219482.6, Total length = 4712773, GC % = 52.02, # N's per 100 kbp =  0.00
+    48 Assembly_CGT2858__asm_final.contigs, N50 = 20272, L50 = 74, auN = 23825.3, Total length = 4673151, GC % = 52.20, # N's per 100 kbp =  0.00
+    49 Assembly_CGT2878__asm_final.contigs, N50 = 39647, L50 = 31, auN = 56140.1, Total length = 4488860, GC % = 52.43, # N's per 100 kbp =  0.00
+    50 Assembly_CGT2908__asm_final.contigs, N50 = 43692, L50 = 31, auN = 54663.6, Total length = 4497071, GC % = 52.41, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/GC_content_plot.pdf
+  Drawing Assembly_CGT2006__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2006__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2010__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2010__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2044__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2044__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2049__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2049__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2060__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2060__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2069__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2069__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2076__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2076__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2093__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2093__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2114__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2114__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2116__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2116__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2119__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2119__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2123__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2123__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2135__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2135__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2196__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2196__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2214__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2214__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2269__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2269__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2278__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2278__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2287__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2287__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2304__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2304__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2318__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2318__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2326__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2326__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2332__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2332__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2344__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2344__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2364__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2364__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2374__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2374__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2386__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2386__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2393__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2393__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2400__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2400__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2424__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2424__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2427__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2427__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2428__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2428__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2443__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2443__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2471__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2471__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2472__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2472__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2514__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2514__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2517__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2517__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2540__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2540__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2552__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2552__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2567__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2567__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2599__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2599__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2628__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2628__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2659__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2659__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2683__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2683__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2742__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2742__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2785__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2785__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2805__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2805__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2843__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2843__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2858__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2858__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2878__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2878__asm_final.contigs_GC_content_plot.pdf
+  Drawing Assembly_CGT2908__asm_final.contigs GC content plot...
+    saved to /home/bcara3/test/Assembly/quast_batch_report/basic_stats/Assembly_CGT2908__asm_final.contigs_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2023-02-20 20:46:20
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2023-02-20 20:46:28
+RESULTS:
+  Text versions of total report are saved to /home/bcara3/test/Assembly/quast_batch_report/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/bcara3/test/Assembly/quast_batch_report/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/bcara3/test/Assembly/quast_batch_report/report.html
+  PDF version (tables and plots) is saved to /home/bcara3/test/Assembly/quast_batch_report/report.pdf
+  Icarus (contig browser) is saved to /home/bcara3/test/Assembly/quast_batch_report/icarus.html
+  Log is saved to /home/bcara3/test/Assembly/quast_batch_report/quast.log
+
+Finished: 2023-02-20 20:46:28
+Elapsed time: 0:00:24.650060
+NOTICEs: 1; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

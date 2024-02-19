@@ -1,0 +1,36 @@
+SLIDINGWINDOW:5:30 AVGQUAL:30
+ results:
+ Input Read Pairs: 92661 Both Surviving: 4882 (5.27%) Forward Only Surviving: 37257 (40.21%) Reverse Only Surviving: 5913 (6.38%) Dropped: 44609 (48.14%)
+ 
+ SLIDINGWINDOW:5:27  AVGQUAL:27
+Input Read Pairs: 92661 Both Surviving: 13330 (14.39%) Forward Only Surviving: 45396 (48.99%) Reverse Only Surviving: 7698 (8.31%) Dropped: 26237 (28.32%)
+
+ SLIDINGWINDOW:5:25 AVGQUAL:25
+ Input Read Pairs: 92661 Both Surviving: 21968 (23.71%) Forward Only Surviving: 44572 (48.10%) Reverse Only Surviving: 8645 (9.33%) Dropped: 17476 (18.86%)
+ 
+ SLIDINGWINDOW:5:20 AVGQUAL:20
+ Input Read Pairs: 92661 Both Surviving: 52858 (57.04%) Forward Only Surviving: 31504 (34.00%) Reverse Only Surviving: 5204 (5.62%) Dropped: 3095 (3.34%)
+
+SLIDINGWINDOW:5:40 AVGQUAL:40
+Input Read Pairs: 92661 Both Surviving: 0 (0.00%) Forward Only Surviving: 0 (0.00%) Reverse Only Surviving: 0 (0.00%) Dropped: 92661 (100.00%)
+
+SLIDINGWINDOW:5:15  AVGQUAL:30
+Input Read Pairs: 92661 Both Surviving: 17898 (19.32%) Forward Only Surviving: 57342 (61.88%) Reverse Only Surviving: 4132 (4.46%) Dropped: 13289 (14.34%)
+
+SLIDINGWINDOW:5:15  AVGQUAL:25
+Input Read Pairs: 92661 Both Surviving: 38868 (41.95%) Forward Only Surviving: 47537 (51.30%) Reverse Only Surviving: 2804 (3.03%) Dropped: 3452 (3.73%)
+
+SLIDINGWINDOW:5:20  AVGQUAL:30
+Input Read Pairs: 92661 Both Surviving: 5067 (5.47%) Forward Only Surviving: 48569 (52.42%) Reverse Only Surviving: 3926 (4.24%) Dropped: 35099 (37.88%)
+
+SLIDINGWINDOW:2:15  AVGQUAL:30
+Input Read Pairs: 92661 Both Surviving: 18607 (20.08%) Forward Only Surviving: 45248 (48.83%) Reverse Only Surviving: 8496 (9.17%) Dropped: 20310 (21.92%)
+
+SLIDINGWINDOW:2:10  AVGQUAL:30
+Input Read Pairs: 92661 Both Surviving: 13308 (14.36%) Forward Only Surviving: 51163 (55.22%) Reverse Only Surviving: 5887 (6.35%) Dropped: 22303 (24.07%)
+
+--------------------------------------------
+Finalized parameters
+SLIDINGWINDOW:5:25    
+Dropped 22%
+Do not use both sliding window and avgqual. 

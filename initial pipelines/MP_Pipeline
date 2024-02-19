@@ -1,0 +1,186 @@
+Project Genome Assembly Commands
+
+Located at home/miniconda3/envs/project
+# create environment
+conda create -n project -y
+conda activate project
+conda install -c bioconda -c conda-forge fastqc trimmomatic spades megahit -y
+conda install -c bioconda quast
+
+cd project
+multiqc
+#Fetch data. Download files from server to local drive
+scp mpham71@biogenome2023.biosci.gatech.edu:/home/team2/Raw_FQs/CGT2006_1.fq.gz ~/Downloads
+scp mpham71@biogenome2023.biosci.gatech.edu:/home/team2/Raw_FQs/CGT2006_2.fq.gz ~/Downloads
+scp mpham71@biogenome2023.biosci.gatech.edu:/home/team2/Raw_FQs/CGT2010_1.fq.gz ~/Downloads
+scp mpham71@biogenome2023.biosci.gatech.edu:/home/team2/Raw_FQs/CGT2010_2.fq.gz ~/Downloads
+scp mpham71@biogenome2023.biosci.gatech.edu:/home/team2/Raw_FQs/CGT2044_1.fq.gz ~/Downloads
+scp mpham71@biogenome2023.biosci.gatech.edu:/home/team2/Raw_FQs/CGT2044_2.fq.gz ~/Downloads
+scp mpham71@biogenome2023.biosci.gatech.edu:/home/team2/Raw_FQs/CGT2049_1.fq.gz ~/Downloads
+scp mpham71@biogenome2023.biosci.gatech.edu:/home/team2/Raw_FQs/CGT2049_2.fq.gz ~/Downloads
+scp mpham71@biogenome2023.biosci.gatech.edu:/home/team2/Raw_FQs/CGT2060_1.fq.gz ~/Downloads
+scp mpham71@biogenome2023.biosci.gatech.edu:/home/team2/Raw_FQs/CGT2060_2.fq.gz ~/Downloads
+
+mkdir project/raw_data
+
+#run FastQC to ensure the quality is good
+
+mkdir ~/project/raw_data
+
+fastqc \
+ --threads 2 \
+ --outdir project/result \
+ project/raw_data/CGT2006_1.fq.gz \
+ project/raw_data/CGT2006_2.fq.gz
+ 
+ fastqc \
+ --threads 2 \
+ --outdir project/result \
+ project/raw_data/CGT2010_1.fq.gz \
+ project/raw_data/CGT2010_2.fq.gz
+ 
+ fastqc \
+ --threads 2 \
+ --outdir project/result \
+ project/raw_data/CGT2044_1.fq.gz \
+ project/raw_data/CGT2044_2.fq.gz
+
+ fastqc \
+ --threads 2 \
+ --outdir project/result \
+ project/raw_data/CGT2049_1.fq.gz \
+ project/raw_data/CGT2049_2.fq.gz
+ 
+ fastqc \
+ --threads 2 \
+ --outdir project/result \
+ project/raw_data/CGT2060_1.fq.gz \
+ project/raw_data/CGT2060_2.fq.gz
+ 
+ 
+ # Trim the Sequencing Files
+ 
+ mkdir project/trim
+ 
+ trimmomatic PE -phred33 \
+ project/raw_data/CGT2006_1.fq.gz  \
+ project/raw_data/CGT2006_2.fq.gz  \
+ project/trim/CGT2006r1.paired.fq.gz \
+ project/trim/CGT2006r1_unpaired.fq.gz \
+ project/trim/CGT2006r2.paired.fq.gz \
+ project/trim/CGT2006r2_unpaired.fq.gz \
+ SLIDINGWINDOW:5:30 AVGQUAL:30
+ 
+ results:
+ Input Read Pairs: 92661 Both Surviving: 4882 (5.27%) Forward Only Surviving: 37257 (40.21%) Reverse Only Surviving: 5913 (6.38%) Dropped: 44609 (48.14%)
+
+cat project/trim/CGT2006r1_unpaired.fq.gz ~/project/trim/CGT2006r2_unpaired.fq.gz > project/trim/CGT2006single.fq.gz
+
+------------
+ trimmomatic PE -phred33 \
+ project/raw_data/CGT2010_1.fq.gz  \
+ project/raw_data/CGT2010_2.fq.gz  \
+ project/trim/CGT2010r1.paired.fq.gz \
+ project/trim/CGT2010r1_unpaired.fq.gz \
+ project/trim/CGT2010r2.paired.fq.gz \
+ project/trim/CGT2010r2_unpaired.fq.gz \
+ SLIDINGWINDOW:5:30 AVGQUAL:30
+ 
+cat project/trim/CGT2010r1_unpaired.fq.gz ~/project/trim/CGT2010r2_unpaired.fq.gz > project/trim/CGT2010single.fq.gz
+
+ 
+------
+ trimmomatic PE -phred33 \
+ project/raw_data/CGT2044_1.fq.gz  \
+ project/raw_data/CGT2044_2.fq.gz  \
+ project/trim/CGT2044r1.paired.fq.gz \
+ project/trim/CGT2044r1_unpaired.fq.gz \
+ project/trim/CGT2044r2.paired.fq.gz \
+ project/trim/CGT2044r2_unpaired.fq.gz \
+ SLIDINGWINDOW:5:30 AVGQUAL:30
+ 
+cat project/trim/CGT2044r1_unpaired.fq.gz ~/project/trim/CGT2044r2_unpaired.fq.gz > project/trim/CGT2044single.fq.gz
+
+---
+ trimmomatic PE -phred33 \
+ project/raw_data/CGT2049_1.fq.gz  \
+ project/raw_data/CGT2049_2.fq.gz  \
+ project/trim/CGT2049r1.paired.fq.gz \
+ project/trim/CGT2049r1_unpaired.fq.gz \
+ project/trim/CGT2049r2.paired.fq.gz \
+ project/trim/CGT2049r2_unpaired.fq.gz \
+ SLIDINGWINDOW:5:30 AVGQUAL:30
+ 
+cat project/trim/CGT2049r1_unpaired.fq.gz ~/project/trim/CGT2049r2_unpaired.fq.gz > project/trim/CGT2049single.fq.gz
+
+---
+ trimmomatic PE -phred33 \
+ project/raw_data/CGT2060_1.fq.gz  \
+ project/raw_data/CGT2060_2.fq.gz  \
+ project/trim/CGT2060r1.paired.fq.gz \
+ project/trim/CGT2060r1_unpaired.fq.gz \
+ project/trim/CGT2060r2.paired.fq.gz \
+ project/trim/CGT2060r2_unpaired.fq.gz \
+ SLIDINGWINDOW:5:30 AVGQUAL:30
+ 
+cat project/trim/CGT2060r1_unpaired.fq.gz ~/project/trim/CGT2060r2_unpaired.fq.gz > project/trim/CGT2060single.fq.gz
+rm -v project/trim/*unpaired*
+tree project/trim
+-----
+ 
+# assemble methods
+
+mkdir exercise_2/asm
+trimmed files located in 
+project/trim/CGT2006r1.paired.fq.gz and project/trim/CGT2006r2.paired.fq.gz 
+# Spades only work with illumina paired-end
+# iontorrend paired-end
+# pacbio CCS reads
+
+spades -o CGT2006results 
+# Got error for spades
+# Verification of expression 'cov_.size() > 10' failed in function 'void coverage_model::KMerCoverageModel::Fit()'. 
+# In file './assembler/src/common/modules/coverage_model/kmer_coverage_model.cpp' on line 187. Message 
+#'Invalid kmer coverage histogram, make sure that the coverage is indeed uniform'
+
+# Megahit
+megahit -1 project/trim/CGT2006r1.paired.fq.gz -2 project/trim/CGT2006r2.paired.fq.gz -t 12 -o CGT2006_result
+
+trimmomatic PE -phred33 \
+ project/raw_data/CGT2006_1.fq.gz  \
+ project/raw_data/CGT2006_2.fq.gz  \
+ project/trim/CGT2006r1.paired.fq.gz \
+ project/trim/CGT2006r1_unpaired.fq.gz \
+ project/trim/CGT2006r2.paired.fq.gz \
+ project/trim/CGT2006r2_unpaired.fq.gz \
+ 
+ SLIDINGWINDOW:5:30 AVGQUAL:30
+ results:
+ Input Read Pairs: 92661 Both Surviving: 4882 (5.27%) Forward Only Surviving: 37257 (40.21%) Reverse Only Surviving: 5913 (6.38%) Dropped: 44609 (48.14%)
+ 
+ SLIDINGWINDOW:5:27  AVGQUAL:27
+Input Read Pairs: 92661 Both Surviving: 13330 (14.39%) Forward Only Surviving: 45396 (48.99%) Reverse Only Surviving: 7698 (8.31%) Dropped: 26237 (28.32%)
+
+ SLIDINGWINDOW:5:25 AVGQUAL:25
+ Input Read Pairs: 92661 Both Surviving: 21968 (23.71%) Forward Only Surviving: 44572 (48.10%) Reverse Only Surviving: 8645 (9.33%) Dropped: 17476 (18.86%)
+ 
+ SLIDINGWINDOW:5:20 AVGQUAL:20
+ Input Read Pairs: 92661 Both Surviving: 52858 (57.04%) Forward Only Surviving: 31504 (34.00%) Reverse Only Surviving: 5204 (5.62%) Dropped: 3095 (3.34%)
+
+SLIDINGWINDOW:5:40 AVGQUAL:40
+Input Read Pairs: 92661 Both Surviving: 0 (0.00%) Forward Only Surviving: 0 (0.00%) Reverse Only Surviving: 0 (0.00%) Dropped: 92661 (100.00%)
+
+SLIDINGWINDOW:5:15  AVGQUAL:30
+Input Read Pairs: 92661 Both Surviving: 17898 (19.32%) Forward Only Surviving: 57342 (61.88%) Reverse Only Surviving: 4132 (4.46%) Dropped: 13289 (14.34%)
+
+SLIDINGWINDOW:5:15  AVGQUAL:25
+Input Read Pairs: 92661 Both Surviving: 38868 (41.95%) Forward Only Surviving: 47537 (51.30%) Reverse Only Surviving: 2804 (3.03%) Dropped: 3452 (3.73%)
+
+SLIDINGWINDOW:5:20  AVGQUAL:30
+Input Read Pairs: 92661 Both Surviving: 5067 (5.47%) Forward Only Surviving: 48569 (52.42%) Reverse Only Surviving: 3926 (4.24%) Dropped: 35099 (37.88%)
+
+SLIDINGWINDOW:2:15  AVGQUAL:30
+Input Read Pairs: 92661 Both Surviving: 18607 (20.08%) Forward Only Surviving: 45248 (48.83%) Reverse Only Surviving: 8496 (9.17%) Dropped: 20310 (21.92%)
+
+SLIDINGWINDOW:2:10  AVGQUAL:30
+Input Read Pairs: 92661 Both Surviving: 13308 (14.36%) Forward Only Surviving: 51163 (55.22%) Reverse Only Surviving: 5887 (6.35%) Dropped: 22303 (24.07%)

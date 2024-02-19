@@ -1,0 +1,73 @@
+conda install -c bioconda falco
+
+#pre-assembly quality assessment
+cd #to file containing raw data 
+time falco *.fq.gz -o ~/trial/raw_qa #raw_qa is the folder where the QA related files will be
+cd ~ #running the rest of the commands from the home directory
+
+#trimming
+mkdir ~/trial/trim  
+trimmomatic PE -phred33 \
+ trial/raw_data/CGT2006_1.fq.gz \
+ trial/raw_data/CGT2006_2.fq.gz \
+ trial/trim/r1_2006.paired.fq.gz \
+ trial/trim/r1_unpaired.fq.gz \
+ trial/trim/r2_2006.paired.fq.gz \
+ trial/trim/r2_unpaired.fq.gz \
+ SLIDINGWINDOW:2:15 AVGQUAL:30
+
+trimmomatic PE -phred33 \
+ trial/raw_data/CGT2010_1.fq.gz \
+ trial/raw_data/CGT2010_2.fq.gz \
+ trial/trim/r1_2010.paired.fq.gz \
+ trial/trim/r1_unpaired.fq.gz \
+ trial/trim/r2_2010.paired.fq.gz \
+ trial/trim/r2_unpaired.fq.gz \
+ SLIDINGWINDOW:2:15 AVGQUAL:30
+
+trimmomatic PE -phred33 \
+ trial/raw_data/CGT2044_1.fq.gz \
+ trial/raw_data/CGT2044_2.fq.gz \
+ trial/trim/r1_2044.paired.fq.gz \
+ trial/trim/r1_unpaired.fq.gz \
+ trial/trim/r2_2044.paired.fq.gz \
+ trial/trim/r2_unpaired.fq.gz \
+ SLIDINGWINDOW:2:15 AVGQUAL:30
+
+trimmomatic PE -phred33 \
+ trial/raw_data/CGT2049_1.fq.gz \
+ trial/raw_data/CGT2049_2.fq.gz \
+ trial/trim/r1_2049.paired.fq.gz \
+ trial/trim/r1_unpaired.fq.gz \
+ trial/trim/r2_2049.paired.fq.gz \
+ trial/trim/r2_unpaired.fq.gz \
+ SLIDINGWINDOW:2:15 AVGQUAL:30
+
+trimmomatic PE -phred33 \
+ trial/raw_data/CGT2060_1.fq.gz \
+ trial/raw_data/CGT2060_2.fq.gz \
+ trial/trim/r1_2060.paired.fq.gz \
+ trial/trim/r1_unpaired.fq.gz \
+ trial/trim/r2_2060.paired.fq.gz \
+ trial/trim/r2_unpaired.fq.gz \
+ SLIDINGWINDOW:2:15 AVGQUAL:30
+#need to figure out bash script to run it in a loop
+
+cat trial/trim/r1_unpaired.fq.gz ~/trial/trim/r2_unpaired.fq.gz > trial/trim/singletons.fq.gz
+rm -v trial/trim/*unpaired*
+
+#genome assembly
+mkdir trial/asm
+
+time megahit -1/Users/akshitasingh/trial/trim/r1_2006.paired.fq.gz -2 /Users/akshitasingh/trial/trim/r2_2006.paired.fq.gz -o trial/asm/out
+megahit -1/Users/akshitasingh/trial/trim/r1_2010.paired.fq.gz -2 /Users/akshitasingh/trial/trim/r2_2010.paired.fq.gz -o trial/asm/out2
+megahit -1/Users/akshitasingh/trial/trim/r1_2044.paired.fq.gz -2 /Users/akshitasingh/trial/trim/r2_2044.paired.fq.gz -o trial/asm/out3
+megahit -1/Users/akshitasingh/trial/trim/r1_2049.paired.fq.gz -2 /Users/akshitasingh/trial/trim/r2_2049.paired.fq.gz -o trial/asm/out4
+megahit -1/Users/akshitasingh/trial/trim/r1_2060.paired.fq.gz -2 /Users/akshitasingh/trial/trim/r2_2060.paired.fq.gz -o trial/asm/out5
+
+#post assembly quality assessment
+cd asm/out #moving to the folder that contains the contigs for each read (out, out2, out3,out4 and out5)
+time quast.py final.contigs.fa -o quast_report 
+cd quast_report
+
+open -a "Google Chrome" report.html #viewing the QUAST results

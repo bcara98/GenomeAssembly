@@ -1,0 +1,95 @@
+#!/bin/bash
+
+# Setting up server
+
+# Install and connect to Global Protect VPN
+# https://docs.pace.gatech.edu/gettingStarted/vpn/
+
+# Log on to server
+ssh gtusername@biogenome2023.biosci.gatech.edu
+# enter password 
+
+# Locating raw FQ files in team directory
+cd /home/team2/Raw_FQs
+
+# To download files locally (optional)
+scp gtusername@biogenome2023.biosci.gatech.edu:/home/team2/Raw_FQs/filename ~/Downloads
+# enter password
+
+# To install conda (can choose what directory to install it, by default installs in /home/gtusername)
+bash /home/team2/Downloads/Miniconda3-py310_22.11.1-1-Linux-x86_64.sh
+
+# Pipeline
+cd /home/team2 #running commands from team2 directory on the server
+
+# Set up environment
+conda install -c bioconda falco
+conda install -c bioconda megahit
+conda install -c bioconda quast
+conda install -c conda-forge pigz
+conda install -c bioconda trimmomatic
+
+# Quality Assessment
+
+falco home/team2/Raw_FQs/*.fq.gz -o /home/team2/raw_qa #raw_qa is the folder where the QA related files will be 
+  
+
+# Trimming 
+
+mkdir trim   
+
+# for each file run trimmomatic (CGT2006_1 as example)
+
+trimmomatic PE -phred33 \ 
+
+home/team2/Raw_FQs/CGT2006_1.fq.gz \ 
+
+home/team2/Raw_FQs/CGT2006_2.fq.gz \ 
+
+trim/r1_2006.paired.fq.gz \ 
+
+trim/r1_unpaired.fq.gz \ 
+
+trim/r2_2006.paired.fq.gz \ 
+
+trim/r2_unpaired.fq.gz \ 
+
+SLIDINGWINDOW:5:25 
+
+#need to figure out bash script to run it in a loop 
+
+
+cat trim/r1_unpaired.fq.gz home/team2/trim/r2_unpaired.fq.gz > trim/singletons.fq.gz 
+
+rm -v trim/*unpaired* 
+
+  
+
+# Genome Assembly
+
+mkdir asm 
+
+# Use whole path with megahit. Fun for each file
+
+time megahit -1 /home/team2/trim/r1_2006.paired.fq.gz -2 home/team2/trim/r2_2006.paired.fq.gz -o home/team2/asm/out 
+
+megahit -1 /home/team2/trim/r1_2010.paired.fq.gz -2 /home/team2/trim/r2_2010.paired.fq.gz -o /home/team2/asm/out2 
+
+megahit -1 /home/team2/trim/r1_2044.paired.fq.gz -2 /home/team2/trim/r2_2044.paired.fq.gz -o /home/team2/asm/out3 
+
+megahit -1 /home/team2/trim/r1_2049.paired.fq.gz -2 /home/team2/trim/r2_2049.paired.fq.gz -o /home/team2/asm/out4 
+
+megahit -1 /home/team2/trim/r1_2060.paired.fq.gz -2 /home/team2/trim/r2_2060.paired.fq.gz -o /home/team2/asm/out5 
+
+  
+# Post assembly quality assessment 
+
+cd home/team2/asm/out #moving to the folder that contains the contigs for each read (out, out2, out3,out4 and out5) 
+
+time quast.py final.contigs.fa -o quast_report  
+
+cd quast_report 
+
+
+
+open -a "Google Chrome" report.html #viewing the QUAST results 

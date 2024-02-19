@@ -1,0 +1,100 @@
+Trim Info for pair CGT2044_ Input Read Pairs: 70851 Both Surviving: 14213 (20.06%)
+Time elapsed for pair CGT2044_: 7 seconds
+Trim Info for pair CGT2006_ Input Read Pairs: 92661 Both Surviving: 22131 (23.88%)
+Time elapsed for pair CGT2006_: 7 seconds
+Trim Info for pair CGT2049_ Input Read Pairs: 114749 Both Surviving: 22470 (19.58%)
+Time elapsed for pair CGT2049_: 7 seconds
+Trim Info for pair CGT2010_ Input Read Pairs: 117848 Both Surviving: 19058 (16.17%)
+Time elapsed for pair CGT2010_: 8 seconds
+Trim Info for pair CGT2060_ Input Read Pairs: 206474 Both Surviving: 40864 (19.79%)
+Time elapsed for pair CGT2060_: 11 seconds
+Trim Info for pair CGT2069_ Input Read Pairs: 272887 Both Surviving: 64528 (23.65%)
+Time elapsed for pair CGT2069_: 13 seconds
+Trim Info for pair CGT2471_ Input Read Pairs: 348736 Both Surviving: 56379 (16.17%)
+Time elapsed for pair CGT2471_: 14 seconds
+Trim Info for pair CGT2076_ Input Read Pairs: 355575 Both Surviving: 57653 (16.21%)
+Time elapsed for pair CGT2076_: 15 seconds
+Trim Info for pair CGT2540_ Input Read Pairs: 394680 Both Surviving: 77620 (19.67%)
+Time elapsed for pair CGT2540_: 16 seconds
+Trim Info for pair CGT2659_ Input Read Pairs: 367701 Both Surviving: 72951 (19.84%)
+Time elapsed for pair CGT2659_: 15 seconds
+Trim Info for pair CGT2443_ Input Read Pairs: 377120 Both Surviving: 89792 (23.81%)
+Time elapsed for pair CGT2443_: 15 seconds
+Trim Info for pair CGT2196_ Input Read Pairs: 403693 Both Surviving: 65939 (16.33%)
+Time elapsed for pair CGT2196_: 16 seconds
+Trim Info for pair CGT2364_ Input Read Pairs: 384281 Both Surviving: 75927 (19.76%)
+Time elapsed for pair CGT2364_: 16 seconds
+Trim Info for pair CGT2116_ Input Read Pairs: 386557 Both Surviving: 62407 (16.14%)
+Time elapsed for pair CGT2116_: 15 seconds
+Trim Info for pair CGT2093_ Input Read Pairs: 469653 Both Surviving: 111353 (23.71%)
+Time elapsed for pair CGT2093_: 19 seconds
+Trim Info for pair CGT2135_ Input Read Pairs: 490256 Both Surviving: 79324 (16.18%)
+Time elapsed for pair CGT2135_: 19 seconds
+Trim Info for pair CGT2858_ Input Read Pairs: 495084 Both Surviving: 80765 (16.31%)
+Time elapsed for pair CGT2858_: 18 seconds
+Trim Info for pair CGT2599_ Input Read Pairs: 537405 Both Surviving: 87624 (16.31%)
+Time elapsed for pair CGT2599_: 20 seconds
+Trim Info for pair CGT2114_ TrimmomaticPE: Started with arguments: -phred33 /home/team2/Raw_FQs/CGT2114_1.fq.gz /home/team2/Raw_FQs/CGT2114_2.fq.gz Output_CGT2114_/Output_CGT2114__trim/r1.paired.fq.gz Output_CGT2114_/Output_CGT2114__trim/r1_unpaired.fq.gz Output_CGT2114_/Output_CGT2114__trim/r2.paired.fq.gz Output_CGT2114_/Output_CGT2114__trim/r2_unpaired.fq.gz SLIDINGWINDOW:5:25 Exception in thread "main" java.lang.RuntimeException: Missing comment line from record: CGT2114-672/1 at org.usadellab.trimmomatic.fastq.FastqParser.parseOne(FastqParser.java:77) at org.usadellab.trimmomatic.fastq.FastqParser.next(FastqParser.java:179) at org.usadellab.trimmomatic.TrimmomaticPE.processSingleThreaded(TrimmomaticPE.java:62) at org.usadellab.trimmomatic.TrimmomaticPE.process(TrimmomaticPE.java:316) at org.usadellab.trimmomatic.TrimmomaticPE.run(TrimmomaticPE.java:555) at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:80)
+Time elapsed for pair CGT2114_: 19 seconds
+Trim Info for pair CGT2326_ Input Read Pairs: 556261 Both Surviving: 131827 (23.70%)
+Time elapsed for pair CGT2326_: 22 seconds
+Trim Info for pair CGT2427_ Input Read Pairs: 565680 Both Surviving: 111372 (19.69%)
+Time elapsed for pair CGT2427_: 21 seconds
+Trim Info for pair CGT2344_ Input Read Pairs: 575117 Both Surviving: 113856 (19.80%)
+Time elapsed for pair CGT2344_: 22 seconds
+Trim Info for pair CGT2393_ Input Read Pairs: 579142 Both Surviving: 137425 (23.73%)
+Time elapsed for pair CGT2393_: 22 seconds
+Trim Info for pair CGT2517_ Input Read Pairs: 575117 Both Surviving: 93352 (16.23%)
+Time elapsed for pair CGT2517_: 21 seconds
+Trim Info for pair CGT2400_ Input Read Pairs: 627900 Both Surviving: 148403 (23.63%)
+Time elapsed for pair CGT2400_: 23 seconds
+Trim Info for pair CGT2567_ Input Read Pairs: 627900 Both Surviving: 123905 (19.73%)
+Time elapsed for pair CGT2567_: 23 seconds
+Trim Info for pair CGT2785_ Input Read Pairs: 593973 Both Surviving: 117107 (19.72%)
+Time elapsed for pair CGT2785_: 22 seconds
+Trim Info for pair CGT2123_ Input Read Pairs: 654853 Both Surviving: 106116 (16.20%)
+Time elapsed for pair CGT2123_: 23 seconds
+Trim Info for pair CGT2628_ Input Read Pairs: 622248 Both Surviving: 101133 (16.25%)
+Time elapsed for pair CGT2628_: 22 seconds
+Trim Info for pair CGT2318_ Input Read Pairs: 631685 Both Surviving: 149527 (23.67%)
+Time elapsed for pair CGT2318_: 24 seconds
+Trim Info for pair CGT2878_ Input Read Pairs: 681720 Both Surviving: 161289 (23.66%)
+Time elapsed for pair CGT2878_: 26 seconds
+Trim Info for pair CGT2287_ Input Read Pairs: 650541 Both Surviving: 105567 (16.23%)
+Time elapsed for pair CGT2287_: 23 seconds
+Trim Info for pair CGT2332_ Input Read Pairs: 672552 Both Surviving: 109147 (16.23%)
+Time elapsed for pair CGT2332_: 24 seconds
+Trim Info for pair CGT2552_ Input Read Pairs: 678816 Both Surviving: 109800 (16.18%)
+Time elapsed for pair CGT2552_: 24 seconds
+Trim Info for pair CGT2424_ Input Read Pairs: 725965 Both Surviving: 172188 (23.72%)
+Time elapsed for pair CGT2424_: 27 seconds
+Trim Info for pair CGT2304_ Input Read Pairs: 735384 Both Surviving: 145265 (19.75%)
+Time elapsed for pair CGT2304_: 26 seconds
+Trim Info for pair CGT2742_ Input Read Pairs: 735384 Both Surviving: 145372 (19.77%)
+Time elapsed for pair CGT2742_: 27 seconds
+Trim Info for pair CGT2472_ Input Read Pairs: 777926 Both Surviving: 153258 (19.70%)
+Time elapsed for pair CGT2472_: 27 seconds
+Trim Info for pair CGT2683_ Input Read Pairs: 801389 Both Surviving: 157794 (19.69%)
+Time elapsed for pair CGT2683_: 29 seconds
+Trim Info for pair CGT2428_ Input Read Pairs: 810808 Both Surviving: 191963 (23.68%)
+Time elapsed for pair CGT2428_: 30 seconds
+Trim Info for pair CGT2269_ Input Read Pairs: 829664 Both Surviving: 163679 (19.73%)
+Time elapsed for pair CGT2269_: 29 seconds
+Trim Info for pair CGT2386_ Input Read Pairs: 843525 Both Surviving: 166039 (19.68%)
+Time elapsed for pair CGT2386_: 30 seconds
+Trim Info for pair CGT2374_ Input Read Pairs: 848520 Both Surviving: 201034 (23.69%)
+Time elapsed for pair CGT2374_: 31 seconds
+Trim Info for pair CGT2119_ Input Read Pairs: 879188 Both Surviving: 173026 (19.68%)
+Time elapsed for pair CGT2119_: 32 seconds
+Trim Info for pair CGT2805_ Input Read Pairs: 886232 Both Surviving: 210894 (23.80%)
+Time elapsed for pair CGT2805_: 32 seconds
+Trim Info for pair CGT2908_ Input Read Pairs: 941893 Both Surviving: 223314 (23.71%)
+Time elapsed for pair CGT2908_: 34 seconds
+Trim Info for pair CGT2278_ Input Read Pairs: 899760 Both Surviving: 177039 (19.68%)
+Time elapsed for pair CGT2278_: 32 seconds
+Trim Info for pair CGT2843_ Input Read Pairs: 914236 Both Surviving: 217208 (23.76%)
+Time elapsed for pair CGT2843_: 32 seconds
+Trim Info for pair CGT2514_ Input Read Pairs: 952237 Both Surviving: 224749 (23.60%)
+Time elapsed for pair CGT2514_: 35 seconds
+Trim Info for pair CGT2214_ Input Read Pairs: 1012230 Both Surviving: 163925 (16.19%)
+Time elapsed for pair CGT2214_: 35 seconds

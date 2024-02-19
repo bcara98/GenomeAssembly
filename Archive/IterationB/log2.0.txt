@@ -1,0 +1,251 @@
+For pair CGT2044_
+Trim Info for pair CGT2044_ Input Read Pairs: 70851 Both Surviving: 40465 (57.11%) Forward Only Surviving: 30385 (42.89%) Reverse Only Surviving: 0 (0.00%) Dropped: 1 (0.00%)
+Assembly Info for pair CGT2044_ N50 = 236810, L50 = 2, auN = 295880.0, Total length = 896788, GC % = 50.91
+Time elapsed for pair CGT2044_: 27 seconds
+
+For pair CGT2006_
+Trim Info for pair CGT2006_ Input Read Pairs: 92661 Both Surviving: 79262 (85.54%) Forward Only Surviving: 13399 (14.46%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+Assembly Info for pair CGT2006_ N50 = 278471, L50 = 2, auN = 245421.2, Total length = 1082256, GC % = 51.45
+Time elapsed for pair CGT2006_: 33 seconds
+
+For pair CGT2049_
+Trim Info for pair CGT2049_ Input Read Pairs: 114749 Both Surviving: 65691 (57.25%) Forward Only Surviving: 49058 (42.75%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+Assembly Info for pair CGT2049_ N50 = 87553, L50 = 7, auN = 91234.8, Total length = 1490498, GC % = 53.17
+Time elapsed for pair CGT2049_: 38 seconds
+
+For pair CGT2010_
+Trim Info for pair CGT2010_ Input Read Pairs: 117848 Both Surviving: 28477 (24.16%) Forward Only Surviving: 89370 (75.83%) Reverse Only Surviving: 0 (0.00%) Dropped: 1 (0.00%)
+Assembly Info for pair CGT2010_ N50 = 2800, L50 = 168, auN = 3374.0, Total length = 1522198, GC % = 51.40
+Time elapsed for pair CGT2010_: 50 seconds
+
+For pair CGT2060_
+Trim Info for pair CGT2060_ Input Read Pairs: 206474 Both Surviving: 117963 (57.13%) Forward Only Surviving: 88511 (42.87%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+Assembly Info for pair CGT2060_ N50 = 278471, L50 = 2, auN = 245736.6, Total length = 1082515, GC % = 51.45
+Time elapsed for pair CGT2060_: 51 seconds
+
+For pair CGT2069_
+Trim Info for pair CGT2069_ Input Read Pairs: 272887 Both Surviving: 233504 (85.57%) Forward Only Surviving: 39383 (14.43%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+Assembly Info for pair CGT2069_ N50 = 367248, L50 = 3, auN = 318052.2, Total length = 1902188, GC % = 51.52
+Time elapsed for pair CGT2069_: 76 seconds
+
+For pair CGT2471_
+Trim Info for pair CGT2471_ Input Read Pairs: 348736 Both Surviving: 84591 (24.26%) Forward Only Surviving: 264145 (75.74%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+Assembly Info for pair CGT2471_ N50 = 3275, L50 = 439, auN = 3865.9, Total length = 4578660, GC % = 52.02
+Time elapsed for pair CGT2471_: 122 seconds
+
+For pair CGT2076_
+Trim Info for pair CGT2076_ Input Read Pairs: 355575 Both Surviving: 85909 (24.16%) Forward Only Surviving: 269663 (75.84%) Reverse Only Surviving: 1 (0.00%) Dropped: 2 (0.00%)
+Assembly Info for pair CGT2076_ N50 = 3724, L50 = 328, auN = 4323.6, Total length = 3824242, GC % = 52.08
+Time elapsed for pair CGT2076_: 121 seconds
+
+For pair CGT2540_
+Trim Info for pair CGT2540_ Input Read Pairs: 394680 Both Surviving: 225033 (57.02%) Forward Only Surviving: 169646 (42.98%) Reverse Only Surviving: 0 (0.00%) Dropped: 1 (0.00%)
+Assembly Info for pair CGT2540_ N50 = 39225, L50 = 31, auN = 55825.6, Total length = 4490259, GC % = 52.43
+Time elapsed for pair CGT2540_: 97 seconds
+
+For pair CGT2659_
+Trim Info for pair CGT2659_ Input Read Pairs: 367701 Both Surviving: 210152 (57.15%) Forward Only Surviving: 157546 (42.85%) Reverse Only Surviving: 3 (0.00%) Dropped: 0 (0.00%)
+Assembly Info for pair CGT2659_ N50 = 164698, L50 = 10, auN = 171578.8, Total length = 4712320, GC % = 52.22
+Time elapsed for pair CGT2659_: 101 seconds
+
+For pair CGT2443_
+Trim Info for pair CGT2443_ Input Read Pairs: 377120 Both Surviving: 322066 (85.40%) Forward Only Surviving: 55051 (14.60%) Reverse Only Surviving: 2 (0.00%) Dropped: 1 (0.00%)
+Assembly Info for pair CGT2443_ N50 = 167199, L50 = 10, auN = 183280.1, Total length = 4708011, GC % = 52.22
+Time elapsed for pair CGT2443_: 112 seconds
+
+For pair CGT2196_
+Trim Info for pair CGT2196_ Input Read Pairs: 403693 Both Surviving: 97765 (24.22%) Forward Only Surviving: 305926 (75.78%) Reverse Only Surviving: 1 (0.00%) Dropped: 1 (0.00%)
+Assembly Info for pair CGT2196_ N50 = 4523, L50 = 296, auN = 5576.4, Total length = 4483134, GC % = 52.53
+Time elapsed for pair CGT2196_: 139 seconds
+
+For pair CGT2364_
+Trim Info for pair CGT2364_ Input Read Pairs: 384281 Both Surviving: 219729 (57.18%) Forward Only Surviving: 164551 (42.82%) Reverse Only Surviving: 1 (0.00%) Dropped: 0 (0.00%)
+Assembly Info for pair CGT2364_ N50 = 61156, L50 = 26, auN = 64532.1, Total length = 4692103, GC % = 52.16
+Time elapsed for pair CGT2364_: 107 seconds
+
+For pair CGT2116_
+Trim Info for pair CGT2116_ Input Read Pairs: 386557 Both Surviving: 93855 (24.28%) Forward Only Surviving: 292702 (75.72%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+Assembly Info for pair CGT2116_ N50 = 5168, L50 = 276, auN = 6366.1, Total length = 4710910, GC % = 52.20
+Time elapsed for pair CGT2116_: 123 seconds
+
+For pair CGT2093_
+Trim Info for pair CGT2093_ Input Read Pairs: 469653 Both Surviving: 401629 (85.52%) Forward Only Surviving: 68024 (14.48%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+Assembly Info for pair CGT2093_ N50 = 225243, L50 = 6, auN = 242617.3, Total length = 3458979, GC % = 52.12
+Time elapsed for pair CGT2093_: 127 seconds
+
+For pair CGT2135_
+Trim Info for pair CGT2135_ Input Read Pairs: 490256 Both Surviving: 118891 (24.25%) Forward Only Surviving: 371362 (75.75%) Reverse Only Surviving: 0 (0.00%) Dropped: 3 (0.00%)
+Assembly Info for pair CGT2135_ N50 = 8041, L50 = 182, auN = 9821.3, Total length = 4762283, GC % = 52.23
+Time elapsed for pair CGT2135_: 142 seconds
+
+For pair CGT2858_
+Trim Info for pair CGT2858_ Input Read Pairs: 495084 Both Surviving: 119676 (24.17%) Forward Only Surviving: 375407 (75.83%) Reverse Only Surviving: 0 (0.00%) Dropped: 1 (0.00%)
+Assembly Info for pair CGT2858_ N50 = 15846, L50 = 100, auN = 17342.0, Total length = 4690422, GC % = 52.20
+Time elapsed for pair CGT2858_: 124 seconds
+
+For pair CGT2599_
+Trim Info for pair CGT2599_ Input Read Pairs: 537405 Both Surviving: 129729 (24.14%) Forward Only Surviving: 407675 (75.86%) Reverse Only Surviving: 0 (0.00%) Dropped: 1 (0.00%)
+Assembly Info for pair CGT2599_ N50 = 16079, L50 = 93, auN = 19446.3, Total length = 4736747, GC % = 52.22
+Time elapsed for pair CGT2599_: 143 seconds
+
+For pair CGT2114_
+Trim Info for pair CGT2114_ Exception in thread "main" java.lang.RuntimeException: Missing comment line from record: CGT2114-672/1
+Assembly Info for pair CGT2114_ N50 = 61820, L50 = 16, auN = 78378.0, Total length = 3052650, GC % = 52.96
+Time elapsed for pair CGT2114_: 115 seconds
+
+For pair CGT2326_
+Trim Info for pair CGT2326_ Input Read Pairs: 556261 Both Surviving: 474697 (85.34%) Forward Only Surviving: 81563 (14.66%) Reverse Only Surviving: 1 (0.00%) Dropped: 0 (0.00%)
+Assembly Info for pair CGT2326_ N50 = 167394, L50 = 9, auN = 203480.4, Total length = 4707775, GC % = 52.22
+Time elapsed for pair CGT2326_: 150 seconds
+
+For pair CGT2427_
+Trim Info for pair CGT2427_ Input Read Pairs: 565680 Both Surviving: 323082 (57.11%) Forward Only Surviving: 242598 (42.89%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+Assembly Info for pair CGT2427_ N50 = 167184, L50 = 9, auN = 194137.8, Total length = 4708958, GC % = 52.21
+Time elapsed for pair CGT2427_: 131 seconds
+
+For pair CGT2344_
+Trim Info for pair CGT2344_ Input Read Pairs: 575117 Both Surviving: 327912 (57.02%) Forward Only Surviving: 247203 (42.98%) Reverse Only Surviving: 1 (0.00%) Dropped: 1 (0.00%)
+Assembly Info for pair CGT2344_ N50 = 187894, L50 = 9, auN = 180435.1, Total length = 4712362, GC % = 52.22
+Time elapsed for pair CGT2344_: 131 seconds
+
+For pair CGT2393_
+Trim Info for pair CGT2393_ Input Read Pairs: 579142 Both Surviving: 495183 (85.50%) Forward Only Surviving: 83958 (14.50%) Reverse Only Surviving: 1 (0.00%) Dropped: 0 (0.00%)
+Assembly Info for pair CGT2393_ N50 = 182468, L50 = 8, auN = 250458.2, Total length = 4668522, GC % = 52.20
+Time elapsed for pair CGT2393_: 153 seconds
+
+For pair CGT2517_
+Trim Info for pair CGT2517_ Input Read Pairs: 575117 Both Surviving: 139214 (24.21%) Forward Only Surviving: 435900 (75.79%) Reverse Only Surviving: 1 (0.00%) Dropped: 2 (0.00%)
+Assembly Info for pair CGT2517_ N50 = 16683, L50 = 92, auN = 19923.6, Total length = 4728789, GC % = 52.21
+Time elapsed for pair CGT2517_: 142 seconds
+
+For pair CGT2400_
+Trim Info for pair CGT2400_ Input Read Pairs: 627900 Both Surviving: 537013 (85.53%) Forward Only Surviving: 90886 (14.47%) Reverse Only Surviving: 1 (0.00%) Dropped: 0 (0.00%)
+Assembly Info for pair CGT2400_ N50 = 44284, L50 = 30, auN = 56722.0, Total length = 4482203, GC % = 52.46
+Time elapsed for pair CGT2400_: 157 seconds
+
+For pair CGT2567_
+Trim Info for pair CGT2567_ Input Read Pairs: 627900 Both Surviving: 358956 (57.17%) Forward Only Surviving: 268944 (42.83%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+Assembly Info for pair CGT2567_ N50 = 44439, L50 = 30, auN = 56630.9, Total length = 4494307, GC % = 52.42
+Time elapsed for pair CGT2567_: 133 seconds
+
+For pair CGT2785_
+Trim Info for pair CGT2785_ Input Read Pairs: 593973 Both Surviving: 339431 (57.15%) Forward Only Surviving: 254539 (42.85%) Reverse Only Surviving: 2 (0.00%) Dropped: 1 (0.00%)
+Assembly Info for pair CGT2785_ N50 = 187822, L50 = 9, auN = 206711.2, Total length = 4713036, GC % = 52.22
+Time elapsed for pair CGT2785_: 137 seconds
+
+For pair CGT2123_
+Trim Info for pair CGT2123_ Input Read Pairs: 654853 Both Surviving: 158343 (24.18%) Forward Only Surviving: 496508 (75.82%) Reverse Only Surviving: 0 (0.00%) Dropped: 2 (0.00%)
+Assembly Info for pair CGT2123_ N50 = 31671, L50 = 44, auN = 39657.9, Total length = 4487667, GC % = 52.43
+Time elapsed for pair CGT2123_: 132 seconds
+
+For pair CGT2628_
+Trim Info for pair CGT2628_ Input Read Pairs: 622248 Both Surviving: 150406 (24.17%) Forward Only Surviving: 471842 (75.83%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+Assembly Info for pair CGT2628_ N50 = 23120, L50 = 64, auN = 29457.5, Total length = 4733634, GC % = 52.21
+Time elapsed for pair CGT2628_: 161 seconds
+
+For pair CGT2318_
+Trim Info for pair CGT2318_ Input Read Pairs: 631685 Both Surviving: 539809 (85.46%) Forward Only Surviving: 91876 (14.54%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+Assembly Info for pair CGT2318_ N50 = 187841, L50 = 9, auN = 196940.2, Total length = 4712217, GC % = 52.22
+Time elapsed for pair CGT2318_: 166 seconds
+
+For pair CGT2878_
+Trim Info for pair CGT2878_ Input Read Pairs: 681720 Both Surviving: 582610 (85.46%) Forward Only Surviving: 99109 (14.54%) Reverse Only Surviving: 1 (0.00%) Dropped: 0 (0.00%)
+Assembly Info for pair CGT2878_ N50 = 39660, L50 = 31, auN = 56162.4, Total length = 4488769, GC % = 52.43
+Time elapsed for pair CGT2878_: 166 seconds
+
+For pair CGT2287_
+Trim Info for pair CGT2287_ Input Read Pairs: 650541 Both Surviving: 157728 (24.25%) Forward Only Surviving: 492812 (75.75%) Reverse Only Surviving: 0 (0.00%) Dropped: 1 (0.00%)
+Assembly Info for pair CGT2287_ N50 = 19556, L50 = 78, auN = 22663.3, Total length = 4735894, GC % = 52.22
+Time elapsed for pair CGT2287_: 152 seconds
+
+For pair CGT2332_
+Trim Info for pair CGT2332_ Input Read Pairs: 672552 Both Surviving: 163238 (24.27%) Forward Only Surviving: 509313 (75.73%) Reverse Only Surviving: 0 (0.00%) Dropped: 1 (0.00%)
+Assembly Info for pair CGT2332_ N50 = 69979, L50 = 21, auN = 82867.3, Total length = 4675233, GC % = 52.20
+Time elapsed for pair CGT2332_: 138 seconds
+
+For pair CGT2552_
+Trim Info for pair CGT2552_ Input Read Pairs: 678816 Both Surviving: 164160 (24.18%) Forward Only Surviving: 514655 (75.82%) Reverse Only Surviving: 0 (0.00%) Dropped: 1 (0.00%)
+Assembly Info for pair CGT2552_ N50 = 32633, L50 = 50, auN = 34083.5, Total length = 4724458, GC % = 52.22
+Time elapsed for pair CGT2552_: 146 seconds
+
+For pair CGT2424_
+Trim Info for pair CGT2424_ Input Read Pairs: 725965 Both Surviving: 620385 (85.46%) Forward Only Surviving: 105580 (14.54%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+Assembly Info for pair CGT2424_ N50 = 188036, L50 = 9, auN = 199238.3, Total length = 4712206, GC % = 52.22
+Time elapsed for pair CGT2424_: 185 seconds
+
+For pair CGT2304_
+Trim Info for pair CGT2304_ Input Read Pairs: 735384 Both Surviving: 420806 (57.22%) Forward Only Surviving: 314576 (42.78%) Reverse Only Surviving: 1 (0.00%) Dropped: 1 (0.00%)
+Assembly Info for pair CGT2304_ N50 = 167341, L50 = 10, auN = 174939.0, Total length = 4712668, GC % = 52.22
+Time elapsed for pair CGT2304_: 158 seconds
+
+For pair CGT2742_
+Trim Info for pair CGT2742_ Input Read Pairs: 735384 Both Surviving: 420410 (57.17%) Forward Only Surviving: 314971 (42.83%) Reverse Only Surviving: 2 (0.00%) Dropped: 1 (0.00%)
+Assembly Info for pair CGT2742_ N50 = 187743, L50 = 9, auN = 185548.7, Total length = 4712344, GC % = 52.22
+Time elapsed for pair CGT2742_: 160 seconds
+
+For pair CGT2472_
+Trim Info for pair CGT2472_ Input Read Pairs: 777926 Both Surviving: 445113 (57.22%) Forward Only Surviving: 332812 (42.78%) Reverse Only Surviving: 1 (0.00%) Dropped: 0 (0.00%)
+Assembly Info for pair CGT2472_ N50 = 167888, L50 = 11, auN = 170970.8, Total length = 4685995, GC % = 52.15
+Time elapsed for pair CGT2472_: 168 seconds
+
+For pair CGT2683_
+Trim Info for pair CGT2683_ Input Read Pairs: 801389 Both Surviving: 457232 (57.05%) Forward Only Surviving: 344155 (42.94%) Reverse Only Surviving: 1 (0.00%) Dropped: 1 (0.00%)
+Assembly Info for pair CGT2683_ N50 = 187773, L50 = 9, auN = 194782.3, Total length = 4713772, GC % = 52.22
+Time elapsed for pair CGT2683_: 171 seconds
+
+For pair CGT2428_
+Trim Info for pair CGT2428_ Input Read Pairs: 810808 Both Surviving: 692831 (85.45%) Forward Only Surviving: 117975 (14.55%) Reverse Only Surviving: 2 (0.00%) Dropped: 0 (0.00%)
+Assembly Info for pair CGT2428_ N50 = 187992, L50 = 9, auN = 197543.2, Total length = 4713810, GC % = 52.22
+Time elapsed for pair CGT2428_: 201 seconds
+
+For pair CGT2269_
+Trim Info for pair CGT2269_ Input Read Pairs: 829664 Both Surviving: 474005 (57.13%) Forward Only Surviving: 355655 (42.87%) Reverse Only Surviving: 3 (0.00%) Dropped: 1 (0.00%)
+Assembly Info for pair CGT2269_ N50 = 187961, L50 = 9, auN = 199340.2, Total length = 4712999, GC % = 52.22
+Time elapsed for pair CGT2269_: 175 seconds
+
+For pair CGT2386_
+Trim Info for pair CGT2386_ Input Read Pairs: 843525 Both Surviving: 482404 (57.19%) Forward Only Surviving: 361118 (42.81%) Reverse Only Surviving: 1 (0.00%) Dropped: 2 (0.00%)
+Assembly Info for pair CGT2386_ N50 = 171124, L50 = 10, auN = 178986.6, Total length = 4686114, GC % = 52.15
+Time elapsed for pair CGT2386_: 177 seconds
+
+For pair CGT2374_
+Trim Info for pair CGT2374_ Input Read Pairs: 848520 Both Surviving: 725559 (85.51%) Forward Only Surviving: 122960 (14.49%) Reverse Only Surviving: 1 (0.00%) Dropped: 0 (0.00%)
+Assembly Info for pair CGT2374_ N50 = 187838, L50 = 9, auN = 186589.8, Total length = 4710482, GC % = 52.22
+Time elapsed for pair CGT2374_: 210 seconds
+
+For pair CGT2119_
+Trim Info for pair CGT2119_ Input Read Pairs: 879188 Both Surviving: 502703 (57.18%) Forward Only Surviving: 376482 (42.82%) Reverse Only Surviving: 2 (0.00%) Dropped: 1 (0.00%)
+Assembly Info for pair CGT2119_ N50 = 193676, L50 = 8, auN = 203481.6, Total length = 4336667, GC % = 52.23
+Time elapsed for pair CGT2119_: 179 seconds
+
+For pair CGT2805_
+Trim Info for pair CGT2805_ Input Read Pairs: 886232 Both Surviving: 757927 (85.52%) Forward Only Surviving: 128299 (14.48%) Reverse Only Surviving: 6 (0.00%) Dropped: 0 (0.00%)
+Assembly Info for pair CGT2805_ N50 = 188051, L50 = 9, auN = 192822.5, Total length = 4712550, GC % = 52.22
+Time elapsed for pair CGT2805_: 217 seconds
+
+For pair CGT2908_
+Trim Info for pair CGT2908_ Input Read Pairs: 941893 Both Surviving: 804854 (85.45%) Forward Only Surviving: 137037 (14.55%) Reverse Only Surviving: 1 (0.00%) Dropped: 1 (0.00%)
+Assembly Info for pair CGT2908_ N50 = 43687, L50 = 31, auN = 54530.8, Total length = 4496937, GC % = 52.41
+Time elapsed for pair CGT2908_: 214 seconds
+
+For pair CGT2278_
+Trim Info for pair CGT2278_ Input Read Pairs: 899760 Both Surviving: 513571 (57.08%) Forward Only Surviving: 386187 (42.92%) Reverse Only Surviving: 2 (0.00%) Dropped: 0 (0.00%)
+Assembly Info for pair CGT2278_ N50 = 171108, L50 = 9, auN = 239400.2, Total length = 4687555, GC % = 52.15
+Time elapsed for pair CGT2278_: 186 seconds
+
+For pair CGT2843_
+Trim Info for pair CGT2843_ Input Read Pairs: 914236 Both Surviving: 781177 (85.45%) Forward Only Surviving: 133056 (14.55%) Reverse Only Surviving: 2 (0.00%) Dropped: 1 (0.00%)
+Assembly Info for pair CGT2843_ N50 = 192895, L50 = 8, auN = 219517.2, Total length = 4711759, GC % = 52.02
+Time elapsed for pair CGT2843_: 219 seconds
+
+For pair CGT2514_
+Trim Info for pair CGT2514_ Input Read Pairs: 952237 Both Surviving: 814030 (85.49%) Forward Only Surviving: 138203 (14.51%) Reverse Only Surviving: 4 (0.00%) Dropped: 0 (0.00%)
+Assembly Info for pair CGT2514_ N50 = 187931, L50 = 9, auN = 199349.3, Total length = 4712567, GC % = 52.22
+Time elapsed for pair CGT2514_: 232 seconds
+
+For pair CGT2214_
+Trim Info for pair CGT2214_ Input Read Pairs: 1012230 Both Surviving: 245206 (24.22%) Forward Only Surviving: 767024 (75.78%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+Assembly Info for pair CGT2214_ N50 = 118109, L50 = 14, auN = 128778.3, Total length = 4687979, GC % = 52.15
+Time elapsed for pair CGT2214_: 171 seconds
+
+LEADING:4 TRAILING:4 MAXINFO:97:0.7 MINLEN:100 AVGQUAL:28
