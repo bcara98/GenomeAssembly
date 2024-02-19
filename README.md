@@ -1,4 +1,4 @@
-# Team2-GenomeAssembly
+# GenomeAssembly
 
 Final Genome Assembly Pipeline General Workflow
 -----------------------------------------
