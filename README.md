@@ -21,17 +21,9 @@ conda activate env_name
 Install the next dependencies into this environment by typing the following commands
 ```
 conda install -c bioconda falco
-```
-```
 conda install -c bioconda megahit
-```
-```
 conda install -c bioconda quast
-```
-```
 conda install -c conda-forge pigz
-```
-```
 conda install -c bioconda trimmomatic
 ```
 __________________________________________________________________________________
